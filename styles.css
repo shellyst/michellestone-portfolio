@@ -1,0 +1,80 @@
+/* General Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #606c38;
+}
+
+p, ul, li, a {
+  font-family: 'Karla', sans-serif;
+  color: #283618;
+}
+
+/* Transitional Stylings */
+a, .btn {
+  transition: all 300ms ease;
+}
+
+/* Navigational Styles */
+nav, .nav-links {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+}
+
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+a:hover {
+  color: #bc6c25;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.logo:hover {
+  cursor: default;
+}
+
+/* Hamburger Menu */
+#hamburger-nav {
+  display: none;
+}
+
+.hamburger-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.hamburger-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 24px;
+  width: 30px;
+  cursor: pointer;
+}

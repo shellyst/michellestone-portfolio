@@ -4,12 +4,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Michelle Stone - Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="responsive.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;400&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <nav id="desktop-nav">
-    
+    <div class="logo"><h1>Michelle Stone</h1></div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">Bio</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo"><h1>Michelle Stone</h1></div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <ul>
+          <li><a href="#" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#about" onclick="toggleMenu()">Bio</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Portfolio</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+      </div>
+    </div>
   </nav>
   <script src="script.js"></script>
 </body>
