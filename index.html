@@ -10,6 +10,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;400&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/46dfc3d18e.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <nav id="desktop-nav">
@@ -44,6 +46,35 @@
       </div>
     </div>
   </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/profile-pic.jpg" alt="Michelle Stone profile photo">
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h2 class="title">Michelle Stone</h2>
+      <p class="section__text__p2">Frontend Developer, CRO/SEO Specialist, E-Commerce Professional</p>
+      <div class="btn-container">
+        <button class="btn btn-color-1" onclick="window.open('./assets/Michelle-Stone-Resume.pdf')">
+        Download CV</button>
+        <button class="btn btn-color-2" onclick="location.href='./#contact'">Contact Info</button>
+      </div> 
+      <div id="socials-container">
+        <img 
+        src="./assets/linkedin.png"
+        alt="My LinkedIn Profile"
+        class="icon"
+        onclick="location.href='https://www.linkedin.com/in/michelle-cstone/'"
+        />
+        <img 
+        src="./assets/github.png"
+        alt="My Github Profile"
+        class="icon"
+        onclick="location.href='https://github.com/shellyst'"
+        />
+      </div>
+    </div>
+  </section>
   <script src="script.js"></script>
 </body>
 </html>
