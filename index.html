@@ -15,7 +15,10 @@
 </head>
 <body>
   <nav id="desktop-nav">
-    <div class="logo"><h1>Michelle Stone</h1></div>
+    <!-- <div class="logo"><h1>Michelle Stone</h1></div> -->
+    <div class="logo">
+      <img src="./assets/m.png" alt="michelle stone logo"/>
+    </div>
     <div>
       <ul class="nav-links">
         <li><a href="#">Home</a></li>
@@ -27,22 +30,21 @@
     </div>
   </nav>
   <nav id="hamburger-nav">
-    <div class="logo"><h1>Michelle Stone</h1></div>
+    <!-- <div class="logo">Michelle Stone</div> -->
+    <div class="logo">
+      <img src="./assets/ms.png" alt="michelle stone logo"/>
+    </div>
     <div class="hamburger-menu">
       <div class="hamburger-icon" onclick="toggleMenu()">
         <span></span>
         <span></span>
         <span></span>
-        <span></span>
       </div>
       <div class="menu-links">
-        <ul>
-          <li><a href="#" onclick="toggleMenu()">Home</a></li>
-          <li><a href="#about" onclick="toggleMenu()">Bio</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Portfolio</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </ul>
+        <li><a href="#about" onclick="toggleMenu()">Bio</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Portfolio</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
       </div>
     </div>
   </nav>
@@ -53,7 +55,7 @@
     <div class="section__text">
       <p class="section__text__p1">Hello, I'm</p>
       <h2 class="title">Michelle Stone</h2>
-      <p class="section__text__p2">Frontend Developer, CRO/SEO Specialist, E-Commerce Professional</p>
+      <p class="section__text__p2">Frontend Developer<br>CRO/SEO Specialist<br> E-Commerce Professional</p>
       <div class="btn-container">
         <button class="btn btn-color-1" onclick="window.open('./assets/Michelle-Stone-Resume.pdf')">
         Download CV</button>
@@ -72,6 +74,15 @@
         class="icon"
         onclick="location.href='https://github.com/shellyst'"
         />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h2 class="title">About Me</h2>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/"
       </div>
     </div>
   </section>
